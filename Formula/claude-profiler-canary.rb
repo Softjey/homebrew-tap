@@ -2,29 +2,29 @@
 class ClaudeProfilerCanary < Formula
   desc "See where the time went in a Claude Code session"
   homepage "https://github.com/Softjey/claude-profiler"
-  version "0.1.4-canary.0"
+  version "0.1.4-canary.1"
   license "MIT"
   conflicts_with "claude-profiler"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.0/claude-profiler-darwin-arm64.tar.gz"
-      sha256 "5f1d54fed45971e5f8f8b0107e62cf629a78110687283502ca71d2f8b0d0c055"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-darwin-arm64.tar.gz"
+      sha256 "254fcfdc471c89f7a442b268e2db9caa585f41858ed2d7384cc85dc9e680fdb7"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.0/claude-profiler-darwin-x64.tar.gz"
-      sha256 "240e0cdc24febbd347b3b594789b0f57ec15c087a7e96a592cdeef2dc8e9b524"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-darwin-x64.tar.gz"
+      sha256 "8e826c1054f04842e65255c90c2917a2fb83d49f96fe7b12cdeb90a0fee3cdb9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.0/claude-profiler-linux-arm64.tar.gz"
-      sha256 "66de61b945857609f1a6c599d546c47fb83e1062a61e0d55c94be1c4926e459c"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-linux-arm64.tar.gz"
+      sha256 "8acb86c3e0c058f705459064b14c18289a6f4843df3f225b2b04b9a3a867b210"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.0/claude-profiler-linux-x64.tar.gz"
-      sha256 "25f715ad3e980a0050e933f558e49f3d6ac9e90da36cc8a70d7ee2d1ae9589cd"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-linux-x64.tar.gz"
+      sha256 "8dbf0200b4e5e751189dde125ae3b814c0b3af8372e826951d740c900a1ac026"
     end
   end
 
