@@ -2,29 +2,29 @@
 class ClaudeProfilerCanary < Formula
   desc "See where the time went in a Claude Code session"
   homepage "https://github.com/Softjey/claude-profiler"
-  version "0.1.4-canary.1"
+  version "0.1.4-canary.2"
   license "MIT"
   conflicts_with "claude-profiler"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-darwin-arm64.tar.gz"
-      sha256 "254fcfdc471c89f7a442b268e2db9caa585f41858ed2d7384cc85dc9e680fdb7"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-darwin-arm64.tar.gz"
+      sha256 "b5208f3405fa77b694fb0f5ede74ae69df62329c40b37e33e74ff713e0bca5d5"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-darwin-x64.tar.gz"
-      sha256 "8e826c1054f04842e65255c90c2917a2fb83d49f96fe7b12cdeb90a0fee3cdb9"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-darwin-x64.tar.gz"
+      sha256 "a3525e20bc522093ad20fd11b304b5dc82379082ffb82edc7c4b7ba94b03ac44"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-linux-arm64.tar.gz"
-      sha256 "8acb86c3e0c058f705459064b14c18289a6f4843df3f225b2b04b9a3a867b210"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-linux-arm64.tar.gz"
+      sha256 "e617593ec015e9f4d3120ddeee057410be43b0fbefc1a9a286523c66c573058e"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.1/claude-profiler-linux-x64.tar.gz"
-      sha256 "8dbf0200b4e5e751189dde125ae3b814c0b3af8372e826951d740c900a1ac026"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-linux-x64.tar.gz"
+      sha256 "cd49b6cea76027bff45eb79aa06542c8361e799efb76e91092677c5927710f29"
     end
   end
 
