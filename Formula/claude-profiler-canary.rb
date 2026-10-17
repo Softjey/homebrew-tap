@@ -2,29 +2,29 @@
 class ClaudeProfilerCanary < Formula
   desc "See where the time went in a Claude Code session"
   homepage "https://github.com/Softjey/claude-profiler"
-  version "0.1.4-canary.3"
+  version "0.1.4-canary.4"
   license "MIT"
   conflicts_with "claude-profiler"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-macos-arm64.tar.gz"
-      sha256 "78d034a494edda130b3838204dca0c39b4fe008c6513fec9594179c37c84dd3c"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.4/claude-profiler-cli-macos-arm64.tar.gz"
+      sha256 "a4d98846ab04be239ea1188c5d9764794c3d9e7a171a4bf5f494e48a8419f439"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-macos-x64.tar.gz"
-      sha256 "4a1fba2b81c39b6c95500cab5d1b452336647bdceb3a1ea3aa68865ab50fbbc3"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.4/claude-profiler-cli-macos-x64.tar.gz"
+      sha256 "7d3f860410deb53b9d24d7d07aaa429811962ccde7e55c871fc0020a5983c987"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-linux-arm64.tar.gz"
-      sha256 "e726e4fc5abaaa3343ca1f065e4fe74a477858ffeb16195aac6c2f901e1657fa"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.4/claude-profiler-cli-linux-arm64.tar.gz"
+      sha256 "e8e0ba8aac792b6766d864403068c1e9429d6ac472eeb711f8739c97f3dd92ec"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-linux-x64.tar.gz"
-      sha256 "8c108d18c47c9fd0e5042da6c9bae4fda91242a871af61bdbba3934f81ffaf0a"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.4/claude-profiler-cli-linux-x64.tar.gz"
+      sha256 "fa3a15d17ee406e9d56755bd289d44507e85b6914837abdd2dc2f6fddcb15f18"
     end
   end
 
