@@ -2,29 +2,29 @@
 class ClaudeProfilerCanary < Formula
   desc "See where the time went in a Claude Code session"
   homepage "https://github.com/Softjey/claude-profiler"
-  version "0.1.4-canary.2"
+  version "0.1.4-canary.3"
   license "MIT"
   conflicts_with "claude-profiler"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-darwin-arm64.tar.gz"
-      sha256 "b5208f3405fa77b694fb0f5ede74ae69df62329c40b37e33e74ff713e0bca5d5"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-macos-arm64.tar.gz"
+      sha256 "78d034a494edda130b3838204dca0c39b4fe008c6513fec9594179c37c84dd3c"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-darwin-x64.tar.gz"
-      sha256 "a3525e20bc522093ad20fd11b304b5dc82379082ffb82edc7c4b7ba94b03ac44"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-macos-x64.tar.gz"
+      sha256 "4a1fba2b81c39b6c95500cab5d1b452336647bdceb3a1ea3aa68865ab50fbbc3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-linux-arm64.tar.gz"
-      sha256 "e617593ec015e9f4d3120ddeee057410be43b0fbefc1a9a286523c66c573058e"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-linux-arm64.tar.gz"
+      sha256 "e726e4fc5abaaa3343ca1f065e4fe74a477858ffeb16195aac6c2f901e1657fa"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.2/claude-profiler-linux-x64.tar.gz"
-      sha256 "cd49b6cea76027bff45eb79aa06542c8361e799efb76e91092677c5927710f29"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.1.4-canary.3/claude-profiler-cli-linux-x64.tar.gz"
+      sha256 "8c108d18c47c9fd0e5042da6c9bae4fda91242a871af61bdbba3934f81ffaf0a"
     end
   end
 
