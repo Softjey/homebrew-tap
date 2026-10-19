@@ -2,28 +2,28 @@
 class ClaudeProfiler < Formula
   desc "See where the time went in a Claude Code session"
   homepage "https://github.com/Softjey/claude-profiler"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.0/claude-profiler-cli-macos-arm64.tar.gz"
-      sha256 "b6e23d92820a638cd2a137a8eb6fe54661252a61999ff46a9eb5348a92b82b5e"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.1/claude-profiler-cli-macos-arm64.tar.gz"
+      sha256 "aed3d6ab4710949dd6020ad1aad5526f7ae01c70470ce58cd0d2405cddd3a52a"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.0/claude-profiler-cli-macos-x64.tar.gz"
-      sha256 "fa40564204b1e9acdb585e6330be35c5f9ae34e372734065633c3e9ae1ea06c9"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.1/claude-profiler-cli-macos-x64.tar.gz"
+      sha256 "a406eac388ce7213bb59b649e6535db4ce47a9d569dcc154b63bf7ab15c83828"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.0/claude-profiler-cli-linux-arm64.tar.gz"
-      sha256 "148b16e82e3c8d173142fccf58eab2a56f55968d06ff08e6734e0f67710f32cc"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.1/claude-profiler-cli-linux-arm64.tar.gz"
+      sha256 "adbc6f3cc97a25c6e3f0a6be15dfce4ee6b3baf16f0307d852794d5217aa5c36"
     end
     on_intel do
-      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.0/claude-profiler-cli-linux-x64.tar.gz"
-      sha256 "246ca4be4145dc63e1d70ecc172432c151b2ab7e8484590aa3e2415e8fe5b95e"
+      url "https://github.com/Softjey/claude-profiler/releases/download/v0.3.1/claude-profiler-cli-linux-x64.tar.gz"
+      sha256 "ce02fba01fe6979604420e111bd5bc355979892406fff28fd4bce95096346806"
     end
   end
 
